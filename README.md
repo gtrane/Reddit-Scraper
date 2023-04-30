@@ -1,8 +1,11 @@
 I worked under Dr. Jennifer Nahrgang and Dr. Emily Campion in the Department of Management and Entrepreneurship at the University of Iowa to conduct their data collection for my Spring 2023 Research Assistant position. Using PyCharm, this script allowed me to download all submissions (posts) and subsequent comments from a desired subreddit. I utilized this code to scrape from January 2022 - December 2022 for two subreddits (r/overemployed & r/onlyfansadvice). Following initial scraping, I used Jupyter Notebooks to clean the data and update the dataframes to contain information on if a post received comments (see InitialCleaning.ipynb).
 
+#### InitialCleaning.ipynb
+
+This code works to clean the raw data obtained. It removes null and deleted submissions and comments, and I created a new column in the submissions dataframe to identify if the submission had comments attached to it. This code was used for both subreddits scraped.
+
 
 The obtained data followed the following structure:
-
 #### submissions.csv
 
 Each row is a submission of a specific subreddit and `id` field is unique across the dataset (PK).
