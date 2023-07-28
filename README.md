@@ -1,6 +1,6 @@
 I worked under Dr. Jennifer Nahrgang and Dr. Emily Campion in the Department of Management and Entrepreneurship at the University of Iowa to conduct their data collection for my Spring 2023 Research Assistant position. Using PyCharm, this script allowed me to download all submissions (posts) and subsequent comments from a desired subreddit. I utilized this code to scrape from January 2022 - December 2022 for two subreddits (r/overemployed & r/onlyfansadvice). Following initial scraping, I used Jupyter Notebooks to clean the data and update the dataframes to contain information on if a post received comments (see InitialCleaning.ipynb).
 
-#### 7clusters_Text
+#### 7clusters_Text_Clustering_kMeans_Submissions.html
 Following scraping of data, I applied k-means clustering and LDA topic modeling on the submissions data for r/overemployed. These results were used to aid Dr. Nahrgang in data exploration as distinct topics being discussed were grouped together.
 
 #### InitialCleaning.ipynb
