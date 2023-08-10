@@ -1,7 +1,13 @@
+## Research Assistant for University of Iowa's department of Management and Entrepreneurship: Reddit Scraper project
+
+### Summary
 I worked under Dr. Jennifer Nahrgang and Dr. Emily Campion in the Department of Management and Entrepreneurship at the University of Iowa to conduct their data collection for my Spring 2023 Research Assistant position. I utilized libraries including Python Reddit Wrapper Libraries (praw, pushshift_py) and applied text mining, data cleansing, and supervised machine learning techniques (k-means clustering), to scrape over 150,000 rows of subreddit data from two subreddits (r/overemployed & r/onlyfansadvice) in 2022.
 
-Using PyCharm, scripts in the 'src' folder were exectued to download all submissions (posts) and subsequent comments from a desired subreddit. I utilized this to scrape data from January 2022 - December 2022 for both subreddits (r/overemployed & r/onlyfansadvice). Following initial scraping, I used Jupyter Notebooks to clean the data and update the dataframes to contain information on if a post received comments (see 'InitialCleaning.ipynb').
+Using PyCharm, I scraped all of the submissions (posts) and subsequent comments from the period January 2022 - December 2022 for each subreddit. Following initial scraping, I used Jupyter Notebooks to clean the data and create new columns in the dataframes to include information on if a post received comments (see 'InitialCleaning.ipynb').
 
+Overall, my work streamlined the process for Dr. Nahrgang and Dr. Campion in collecting data for their future/current research projects. 
+
+### Relevant Files
 #### InitialCleaning.ipynb
 Data cleansing code.
 
