@@ -1,11 +1,11 @@
 ## Research Assistant for University of Iowa's department of Management and Entrepreneurship: Reddit Scraper project
 
 ### Summary:
-I worked under Dr. Jennifer Nahrgang and Dr. Emily Campion in the Department of Management and Entrepreneurship at the University of Iowa to conduct their data collection for my Spring 2023 Research Assistant position. I utilized libraries including Python Reddit Wrapper Libraries (praw, pushshift_py) and applied text mining, data cleansing, and supervised machine learning techniques (k-means clustering), to scrape over 150,000 rows of subreddit data from two subreddits (r/overemployed & r/onlyfansadvice) in 2022.
+I worked under the leadership of Dr. Jennifer Nahrgang and Dr. Emily Campion in the Department of Management and Entrepreneurship at the University of Iowa to conduct their data collection for my Spring 2023 Research Assistant position. I utilized libraries including Python Reddit Wrapper Libraries (praw, pushshift_py) and applied text mining, data cleansing, and supervised machine learning techniques (k-means clustering), to scrape over 150,000 rows of subreddit data from two subreddits (r/overemployed & r/onlyfansadvice) in 2022.
 
 Using PyCharm, I scraped all of the submissions (posts) and subsequent comments from the period January 2022 - December 2022 for each subreddit. Following initial scraping, I used Jupyter Notebooks to clean the data and create new columns in the dataframes to include information on if a post received comments (see 'InitialCleaning.ipynb').
 
-Overall, my work streamlined the process for Dr. Nahrgang and Dr. Campion in collecting data for their future/current research projects. 
+Overall, my work streamlined the process for Dr. Nahrgang and Dr. Campion in collecting data for their future/current research projects. I was able to gain skills in API calls and use my self-starter mentality, critical thinking skills, and effective communication with the team to produce an exceptional outcome.
 
 ### Relevant Files:
 #### InitialCleaning.ipynb
