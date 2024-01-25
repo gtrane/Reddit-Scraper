@@ -3,21 +3,21 @@
 ### Summary:
 I worked under the leadership of Dr. Jennifer Nahrgang and Dr. Emily Campion in the Department of Management and Entrepreneurship at the University of Iowa to conduct their data collection for my Spring 2023 Research Assistant position. I utilized libraries including Python Reddit Wrapper Libraries (praw, pushshift_py) and applied text mining, data cleansing, and supervised machine learning techniques (k-means clustering), to scrape over 150,000 rows of subreddit data from two subreddits (r/overemployed & r/onlyfansadvice) in 2022.
 
-Using PyCharm, I scraped all of the submissions (posts) and subsequent comments from the period January 2022 - December 2022 for each subreddit. Following initial scraping, I used Jupyter Notebooks to clean the data and create new columns in the dataframes to include information on if a post received comments (see 'InitialCleaning.ipynb').
+Using PyCharm, I scraped all of the submissions (subreddit posts) and subsequent comments from the period January 2022 - December 2022 for each subreddit. Following this initial scraping, I used Jupyter Notebooks to clean the data and create new columns in the dataframes to include information on if a post received comments (see 'InitialCleaning.ipynb').
 
-Overall, my work streamlined the process for Dr. Nahrgang and Dr. Campion in collecting data for their future/current research projects. I was able to gain skills in API calls and use my self-starter mentality, critical thinking skills, and effective communication with the team to produce an exceptional outcome.
+Overall, my work streamlined the process for Dr. Nahrgang and Dr. Campion in data collection for their research projects. I was able to gain skills in API calls and use my self-starter mentality, critical thinking skills, and effective communication with the team to produce an exceptional outcome.
 
 ### Relevant Files:
 #### InitialCleaning.ipynb
-Data cleansing code.
+- The data cleansing code
 
 #### 7clusters_Text_Clustering_kMeans_Submissions.html
-Following scraping and cleansing of data, I applied k-means clustering on the submissions data for r/overemployed. These results were used to aid Dr. Nahrgang in data exploration as distinct topics being discussed were grouped together.
+- Following scraping and cleansing of data, I applied k-means clustering on the submissions data for r/overemployed. These results were used to aid Dr. Nahrgang in data exploration as distinct topics being discussed were grouped together.
 
-The obtained data followed the following structure:
+- The obtained data followed the following structure:
 #### submissions.csv
 
-Each row is a submission of a specific subreddit and `id` field is unique across the dataset (PK).
+- Each row is a submission of a specific subreddit and `id` field is unique across the dataset (PK).
 
 | Column name | Description                          | Example                                                                |
 |-------------|--------------------------------------|------------------------------------------------------------------------|
@@ -30,7 +30,7 @@ Each row is a submission of a specific subreddit and `id` field is unique across
 
 #### comments.csv
 
-Each row is a comment under a submission of a specific subreddit and `id` field is unique across the dataset (PK).
+- Each row is a comment under a submission of a specific subreddit and `id` field is unique across the dataset (PK).
 
 | Column name | Description                          | Example                                                                          |
 |-------------|--------------------------------------|----------------------------------------------------------------------------------|
